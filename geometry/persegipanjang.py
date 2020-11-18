@@ -5,7 +5,7 @@ class PersegiPanjang():
         self.l = l
 
     def info(self):
-         return f'Modul menghitung rumus-rumus tentang persegipanjang = {self.p} dan lebar = {self.l}'
+         return f'Ini adalah object dari persegi panjang dengan panjang = {self.p} dan lebar = {self.l}'
 
     def hitung_luas(self):
         return self.p * self.l
