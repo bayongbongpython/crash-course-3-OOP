@@ -1,5 +1,5 @@
 class PersegiPanjang():
-    def__init__(self, p, l):
+    def __init__(self, p, l):
     #fungsi yang dipanggil per tama kali saat object diciptakan
         self.p = p
         self.l = l
