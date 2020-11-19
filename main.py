@@ -15,3 +15,4 @@ print('\nMencoba membuat object dari kelas BangunRuang')
 b1 = BangunRuang()
 print(b1.info())
 print(b1.hitung_luas())
+
