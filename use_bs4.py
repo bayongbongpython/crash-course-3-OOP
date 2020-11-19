@@ -8,6 +8,8 @@ try:
         print(f'Sucess! {response}')
         # print(f'Content {response.text}')
         soup = BeautifulSoup(response.text, features="html.parser")
+        print(f'Hasil Pemanggilan {url}')
+        print(f'Title: {soup.title.string}')
     else:
         print(f'Woops, ada kesalahan requests {response.status_code}')
 except Exception as e:
