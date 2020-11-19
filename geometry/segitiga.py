@@ -1,4 +1,4 @@
-class SegiTiga():
+class Segitiga():
     def __init__(self, alas, tinggi):
         # fungsi yang dipanggil per tama kali saat object diciptakan
         self.alas = alas
