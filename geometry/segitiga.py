@@ -1,4 +1,7 @@
-class Segitiga():
+from geometry.bangun_ruang import BangunRuang
+
+
+class Segitiga(BangunRuang):
     def __init__(self, alas, tinggi):
         # fungsi yang dipanggil per tama kali saat object diciptakan
         self.alas = alas

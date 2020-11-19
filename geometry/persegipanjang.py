@@ -1,4 +1,7 @@
-class PersegiPanjang():
+from geometry.bangun_ruang import BangunRuang
+
+
+class PersegiPanjang(BangunRuang):
     def __init__(self, p, l):
         # fungsi yang dipanggil per tama kali saat object diciptakan
         self.p = p
