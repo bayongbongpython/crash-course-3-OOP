@@ -7,7 +7,7 @@ try:
     if response.status_code == 200:
         print(f'Sucess! {response}')
         # print(f'Content {response.text}')
-        soup = BeautifulSoup
+        soup = BeautifulSoup(response.text, features="html.parser")
     else:
         print(f'Woops, ada kesalahan requests {response.status_code}')
 except Exception as e:
